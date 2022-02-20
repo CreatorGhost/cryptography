@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80");
+    
+}
+
+.main_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: pink;
+    flex-direction: column;
+    padding: 1.6em;
+    gap: 20px;
+    width: 60vw;
+    height: 400px;
+    margin-left: 20vw;
+  }
+.buttons{
+    margin-top: 80px;
+
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+    justify-content: space-between;
+}
+
+button{
+    padding: 50px;
+}
+a{
+    margin-top: 30px;
+}
+
+.page_button{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inputs{
+    margin: 5px;
+}
